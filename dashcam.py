@@ -5,7 +5,7 @@ import datetime
 import dashcam_utilities as util
 
 if not os.path.exists("/home/pi/dashcam/Video"):
-	os.makedirs("/home/pi/dascam/Video")
+	os.makedirs("/home/pi/dashcam/Video")
 
 if not os.path.exists("/home/pi/dashcam/Video/January"):
 	util.make_dirs("/home/pi/dashcam/Video")
