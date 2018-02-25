@@ -13,8 +13,8 @@ if not os.path.exists("/home/pi/dashcam/Video/January"):
 size = util.get_dir_size("/home/pi/dashcam/Video")
 
 if size >= 7.5:
-	util.rm_dirs("Video")
-	util.make_dirs("Video")
+	util.rm_dirs("/home/pi/dashcam/Video")
+	util.make_dirs("/home/pi/dashcam/Video")
 
 camera = util.get_camera()
 now = datetime.datetime.now()
