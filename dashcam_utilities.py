@@ -1,9 +1,9 @@
-# @file:			dashcam_utilities.py
-# @author: 			Gareth Sharpe
-# @created:			2/21/2018
+# @file:		dashcam_utilities.py
+# @author: 		Gareth Sharpe
+# @created:		2/21/2018
 # @modified:		2/25/2018
 # @description: 	Utilities for the dashcam application. 
-#					See garethsharpe.com/dashcam for details.	
+#			See garethsharpe.com/dashcam for details.	
 
 # imports #
 import os
