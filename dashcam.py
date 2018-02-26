@@ -24,8 +24,8 @@ size = util.get_dir_size("/home/pi/dashcam/Video")
 # if the file system size exceeds threashold of 7.5GB, delete
 # the files and recreate their parent folders
 if size >= 7.5:
-	util.rm_dirs("Video")
-	util.make_dirs("Video")
+	util.rm_dirs("/home/pi/dashcam/Video")
+	util.make_dirs("/home/pi/dashcam/Video")
 
 camera = util.get_camera()											# get the camera object
 now = datetime.datetime.now()										# get the current date
